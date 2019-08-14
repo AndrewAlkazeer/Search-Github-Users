@@ -1,0 +1,106 @@
+#h1-search{
+    text-align: center;
+}
+
+#input-submit{
+
+    height: 70px;
+}
+
+input{
+position: relative;
+
+width: 250px;
+height: 50px;
+float: left; /* Float is affecting the input and button line */
+font-weight: bold;
+font-size: large;
+bottom: 0;
+}
+
+input:focus{
+    outline-color: black;
+    box-shadow: 0 0 3pt 2pt grey;
+}
+
+button{
+position: relative;
+
+width: 170px;
+height: 50px;
+font-weight: bold;
+font-size: large;
+bottom: 0;
+}
+
+#left-right{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+#div-left{
+    height: 600px;
+}
+
+img{
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+#name, #bio, #link{
+    position: relative;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+    margin-top: 3%;
+}
+
+#div-right{
+    height: 600px;
+}
+
+i{
+    position: absolute;
+    font-size: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 5%;
+}
+
+#hireable{
+    position: absolute;
+    
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    line-height: 2.3em;
+    font-size: large;
+}
+
+.account-created{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translateX(-30%);
+}
+
+.account-updated{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translateX(-30%);
+}
+
+
+#ng-template{
+    position: relative;
+    left: 50%;
+    background: red;
+}
